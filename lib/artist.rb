@@ -13,7 +13,7 @@ def add_song(song)
 end
 
 def genres
-    self.songs.collect do |song|
+    self.songs.map do |song|
       song.genre
     end
   end
