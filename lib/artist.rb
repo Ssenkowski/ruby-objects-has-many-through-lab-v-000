@@ -13,9 +13,9 @@ def add_song(song)
 end
 
 def genres
-    self.songs.map do |song|
-      song.genre
-    end
+  self.songs.map do |song|
+    song.genre
   end
+end
 
 end
