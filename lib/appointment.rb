@@ -8,4 +8,5 @@ attr_reader :date
     doctor.add_appointment(self)
   end
 
+  
 end
