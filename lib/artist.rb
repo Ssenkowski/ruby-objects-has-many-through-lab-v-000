@@ -8,7 +8,9 @@ def initialize(name)
 end
 
 def add_song(song)
+artist.song = song
  @songs << song
+ 
 end
 
 end
